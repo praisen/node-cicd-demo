@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /home/ubuntu/node-cicd-demo
+
+git pull origin main
+
+npm install
+
+pm2 restart index
